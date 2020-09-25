@@ -1,0 +1,14 @@
+.city-name{
+    display: inline;
+}
+.city-code{
+    font-weight: bold;
+    display: inline;
+}
+.city-country{
+    display: block
+}
+
+p{
+    width: 100%;
+}
