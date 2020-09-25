@@ -4,10 +4,12 @@ import '../styles/CityComponent.css'
 const CityComponent = (props)=>{
 
     return (
-        <div>
-            <p className="city-name"> {props.cityInfo.cityName}</p>
+        <div className="city-div">
+            <div className="city-country-div">
+                <p className="city-name"> {props.cityInfo.cityName}</p>
+                <p className="city-country">{props.cityInfo.country}</p>
+            </div>
             <p className="city-code">{props.cityInfo.code}</p>
-            <p className="city-country">{props.cityInfo.country}</p>
         </div>
     )
 

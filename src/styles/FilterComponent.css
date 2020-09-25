@@ -1,7 +1,46 @@
 .filter-div{
     width: 200px;
-    background-color: gray;
-    padding: 10px;
+    background-color: white;
     display: block;
     margin: auto;
+    width: 300px;
+    max-height: 500px;
+}
+
+.filtered-data-div{
+    padding: 10px 0;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.input-div{
+    display: flex;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+    height: 40px;
+}
+
+input:focus{
+    outline: none!important;
+}
+
+.serach-box-input{
+    border: none!important ;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+.popular-text{
+    font-size: 12px;
+    font-weight: 900;
+    color: #9b9b9b;
+    float: left;
+    padding: 5px 0 10px 10px;
+}
+
+.search-icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
 }
